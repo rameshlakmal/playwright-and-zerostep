@@ -1,4 +1,3 @@
-// fixtures.js
 import { test as base } from '@playwright/test';
 import { aiFixture } from '@zerostep/playwright';
 
