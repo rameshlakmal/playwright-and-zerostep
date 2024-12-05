@@ -14,5 +14,8 @@
     "@playwright/test": "^1.49.0",
     "@types/node": "^22.10.1",
     "@zerostep/playwright": "^0.1.5"
+  },
+  "dependencies": {
+    "ortoni-report": "^2.0.8"
   }
 }
