@@ -344,7 +344,7 @@ button#back-to-summary {
                                         status-passed
                                         " data-suite-name="Zerostep and Playwright intigration demo"
                                         data-test-tags="" data-project-name="chromium" data-test-id="0"
-                                        data-test-history-id="test.spec.js:chromium:Verify that user can purchase a product successfully" data-test-status="passed " data-test-duration="18s:598ms">
+                                        data-test-history-id="test.spec.js:chromium:Verify that user can purchase a product successfully" data-test-status="passed " data-test-duration="17s:407ms">
                                         <div class="icon-text">
                                             <span>Verify that user can purchase a product successfully</span>
                                         </div>
@@ -389,7 +389,7 @@ button#back-to-summary {
                                             <span class="icon has-text-info mr-2">
                                                 <i class="fas fa-calendar-alt"></i>
                                             </span>
-                                            <span class="is-size-5">05-Dec-2024 2:38:05 PM</span>
+                                            <span class="is-size-5">05-Dec-2024 3:02:44 PM</span>
                                         </p>
                                     </div>
                                     <div class="field">
@@ -398,7 +398,7 @@ button#back-to-summary {
                                             <span class="icon has-text-warning mr-2">
                                                 <i class="fas fa-stopwatch"></i>
                                             </span>
-                                            <span class="is-size-5">20s:095ms</span>
+                                            <span class="is-size-5">20s:702ms</span>
                                         </p>
                                     </div>
                                 </div>
@@ -597,7 +597,7 @@ button#back-to-summary {
     "title": "Verify that user can purchase a product successfully",
     "status": "passed",
     "flaky": "expected",
-    "duration": "18s:598ms",
+    "duration": "17s:407ms",
     "errors": [],
     "steps": [
       {
@@ -727,6 +727,36 @@ button#back-to-summary {
   {
     "testId": "test.spec.js:chromium:Verify that user can purchase a product successfully",
     "history": [
+      {
+        "status": "passed",
+        "duration": "17s:407ms",
+        "error_message": "",
+        "run_date": "Dec 05, 2024, 03:02 PM GMT+5:30"
+      },
+      {
+        "status": "failed",
+        "duration": "26s:018ms",
+        "error_message": "Error: cdpSession.send: Target page, context or browser has been closed\n    at Object.getContentQuads (C:\\Users\\rames\\Desktop\\zerostepPlaywright\\node_modules\\@zerostep\\playwright\\src\\cdp.ts:201:42)\n    at Object.clickCDPElement (C:\\Users\\rames\\Desktop\\zerostepPlaywright\\node_modules\\@zerostep\\playwright\\src\\playwright.ts:11:32)\n    at executeCommand (C:\\Users\\rames\\Desktop\\zerostepPlaywright\\node_modules\\@zerostep\\playwright\\src\\index.ts:210:14)\n    at C:\\Users\\rames\\Desktop\\zerostepPlaywright\\node_modules\\@zerostep\\playwright\\src\\index.ts:147:30",
+        "run_date": "Dec 05, 2024, 02:49 PM GMT+5:30"
+      },
+      {
+        "status": "passed",
+        "duration": "24s:058ms",
+        "error_message": "",
+        "run_date": "Dec 05, 2024, 02:47 PM GMT+5:30"
+      },
+      {
+        "status": "timedOut",
+        "duration": "30s:057ms",
+        "error_message": "<span style=\"color:#A00\">Test timeout of 30000ms exceeded.<span style=\"color:var(--snippet-color)\"></span></span>\nError: cdpSession.send: Target page, context or browser has been closed\n    at Object.getContentQuads (C:\\Users\\rames\\Desktop\\zerostepPlaywright\\node_modules\\@zerostep\\playwright\\src\\cdp.ts:201:42)\n    at Object.clickCDPElement (C:\\Users\\rames\\Desktop\\zerostepPlaywright\\node_modules\\@zerostep\\playwright\\src\\playwright.ts:11:32)\n    at executeCommand (C:\\Users\\rames\\Desktop\\zerostepPlaywright\\node_modules\\@zerostep\\playwright\\src\\index.ts:210:14)\n    at C:\\Users\\rames\\Desktop\\zerostepPlaywright\\node_modules\\@zerostep\\playwright\\src\\index.ts:147:30",
+        "run_date": "Dec 05, 2024, 02:45 PM GMT+5:30"
+      },
+      {
+        "status": "failed",
+        "duration": "08s:532ms",
+        "error_message": "Error: expect.toHaveURL: Target page, context or browser has been closed\n    at C:\\Users\\rames\\Desktop\\zerostepPlaywright\\tests\\test.spec.js:11:24",
+        "run_date": "Dec 05, 2024, 02:44 PM GMT+5:30"
+      },
       {
         "status": "passed",
         "duration": "18s:598ms",

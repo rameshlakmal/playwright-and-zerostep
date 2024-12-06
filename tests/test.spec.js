@@ -11,7 +11,7 @@ test.describe('Zerostep and Playwright intigration demo' , () => {
     await expect(page).toHaveURL("https://www.saucedemo.com/inventory.html")
 })
 
-  test('Verify that user can purchase a product successfully', async ({ ai,page }) => {
+  test('Verify that user can purchase a product successfully', async ({ ai }) => {
 
     await ai ('Click "Add to cart" button in "Sauce Labs Backpack" product link')
     await ai ('Click "Add to cart" button in "Sauce Labs Bike Light" product link')
